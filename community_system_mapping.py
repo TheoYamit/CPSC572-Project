@@ -1,4 +1,4 @@
-# From RESEARCH QUESTION 1.
+# From RESEARCH QUESTION 1. Not for RESEARCH QUESTION 2
 REPRESENTATIVE_SYMPTOMS = {
     "Dermatological/Integumentary System": [
         "keratosis pilaris",
