@@ -1,112 +1,50 @@
-# From RESEARCH QUESTION 1. Not for RESEARCH QUESTION 2
-REPRESENTATIVE_SYMPTOMS = {
-    "Dermatological/Integumentary System": [
-        "keratosis pilaris",
-        "erythema of lips",
-        "circular or oval erythema",
-        "metallic or slate-gray skin color",
-        "warty lesions"
-    ],
-    "Psychiatric/Neurological System": [
-        "flight of ideas",
-        "disorganized speech",
-        "writer's cramp",
-        "loss of reading ability",
-        "obsessive thoughts",
-        "unwanted thoughts",
-        "obsessive ideas",
-        "compulsive thinking"
-    ],
-    "Musculoskeletal & Reproductive System": [
-        "painful arc sign",
-        "difficulty moving the lower limbs",
-        "nipple bleeding",
-        "fibrocystic breast changes",
-        "enlarged labia",
-        "pain at the medial epicondylar prominence"
-    ],
-    "Gastrointestinal System": [
-        "gastric spasms",
-        "decreased gastric acid",
-        "small bowel dilatation",
-        "breath smells like rotten apples",
-        "ascariasis-induced bowel obstruction"
-    ],
-    "Cardiovascular & Respiratory System": [
-        "absence of respiration",
-        "bronchial constriction",
-        "myocardial stunning",
-        "repeated coughing",
-        "compelled to sit up to breathe"
-    ],
-    "Genitourinary System": [
-        "bladder stones",
-        "urethral ulceration",
-        "obstructions in urination",
-        "urination disorder",
-        "bedwetting in children"
-    ],
-    "Ophthalmological System": [
-        "corneal scar",
-        "leukoma",
-        "ocular pain",
-        "reduced accommodation function",
-        "corneal nebula"
-    ],
-    "Obstetric System": [
-        "umbilical cord entanglement",
-        "fetal heart rate slowing down or speeding up",
-        "slow descent of the presenting part",
-        "dystocia",
-        "neonatal death"
-    ],
-    "Vascular System": [
-        "venous thrombosis",
-        "limb embolism",
-        "cyanotic skin discoloration",
-        "inferior vena cava thrombosis",
-        "facial venous varicosity"
-    ],
-    "Dental/Maxillofacial System": [
-        "localized opening in posterior teeth",
-        "lower jaw are not in vertical contact",
-        "partial teeth in the upper",
-        "lower lips often cannot close",
-        "chewing function"
-    ]
+COMMUNITY_TO_SYSTEM = {
+    5: "Psychiatric & Neurological System",
+    6: "Dermatological/Integumentary System",
+    0: "Musculoskeletal & Reproductive System",
+    1: "Gastrointestinal System",
+    2: "Cardiovascular & Respiratory System",
+    8: "Genitourinary System",
+    4: "Ophthalmological System",
+    48: "Obstetric & Sexual/Behavioral System",
+    40: "Psychiatric System",
+    58: "Dental/Maxillofacial System"
 }
 
-# These were the non symptoms found
 NON_SYMPTOMS = [
+    "clean surface", "the lesions are characterized by white", "out significant raised skin",
+    "some showing pigmentation", "commonly found in anterior premolars", "elevated above the skin)",
+    "each other", "-like pattern appearing prior to the rash", "pain. in later stages", "is fixed",
+    "increased distance between the first", "more than half of the cases", "extension movement",
+    "self-relieving after several months", "abdominal intercostal areas", "may not show noticeable clinical symptoms",
+    "out sound or", "swollen gl", "poor response", "iosity", "erect normally",
+    "a history of hypertension may experience discomfort in the head", "in a relatively weakened state",
+    "or obvious signs of fractures", "initial presentation includes fever", "out any drops of urine",
+    "polyuria)", "worsening over time", "chemical substances", "mtx", "the lesions are soaked",
+    "upper body normal", "for towels or bed covers)", "i.e", "which grows rapidly",
+    "such as saying 'ear' as 'ear guo'", "which then forms an ulcer covered", "a white exudate",
+    "the base of which may have bleeding points. when the lesions invade deeper structures",
+    "they can cause destruction of the epiglottis", "uvula", "leading to perforation",
+    "in 3-10 years after infection", "it often leads to weak uterine contractions",
+    "ibular retrusion", "are of normal skin color", "ibular prognathism", "trauma",
+    "or insect bite-like changes", "ering superficial veins", "pain or drawing pain", "superficial streaky b",
     "iosity",
+    "each other",
+    "more than half of the cases",
+    "erect normally",
     "in a relatively weakened state",
-    "may not show noticeable clinical symptoms",
-    "abdominal intercostal areas",
-    "out any drops of urine",
-    "worsening over time",
-    "polyuria)",
-    "upper body normal",
-    "out significant raised skin",
+    "self-relieving after several months",
+    "commonly found in anterior premolars",
+    "some showing pigmentation",
+    "elevated above the skin)",
+    "poor response",
     "blunt angle of m",
     "impacting st",
-    "which then forms an ulcer covered",
-    "the base of which may have bleeding points. when the lesions invade deeper structures",
-    "or obvious signs of fractures",
-    "clean surface",
-    "is fixed",
-    "increased distance between the first",
-    "second toes"
+    "for towels or bed covers)",
+    "i.e",
+    "upper body normal",
+    "the lesions are characterized by white",
+    "the lesions are soaked",
+    "which grows rapidly",
+    "such as saying 'ear' as 'ear guo'"
 ]
-
-COMMUNITY_TO_SYSTEM = {
-    55: "Dermatological/Integumentary System",
-    5: "Psychiatric/Neurological System",
-    1: "Musculoskeletal & Reproductive System",
-    0: "Gastrointestinal System",
-    2: "Cardiovascular & Respiratory System",
-    4: "Genitourinary System",
-    9: "Ophthalmological System",
-    34: "Obstetric System",
-    48: "Vascular System",
-    15: "Dental/Maxillofacial System"
-}
